@@ -49,3 +49,16 @@ NS_INLINE void _throw_objc(NSException* _Nonnull exception)
 {
     @throw exception;
 }
+
+#if defined (__OBJC__) && ! defined (XCGLog)
+#define XCGLogva(level, message) [XCGLogWrapper logLineWithlevel:level functionName: @(__PRETTY_FUNCTION__) fileName: @__FILE__ lineNumber: __LINE__ logMessage: message ]
+#define XCGLogV(...) XCGLogva(LevelVerbose  , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogD(...) XCGLogva(LevelDebug    , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogI(...) XCGLogva(LevelInfo        , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogN(...) XCGLogva(LevelNotice   , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogW(...) XCGLogva(LevelWarning  , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogE(...) XCGLogva(LevelError    , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogS(...) XCGLogva(LevelSevere   , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogA(...) XCGLogva(LevelAlert    , ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#define XCGLogT(...) XCGLogva(LevelEmergency, ([NSString stringWithFormat: __VA_ARGS__ ]) )
+#endif

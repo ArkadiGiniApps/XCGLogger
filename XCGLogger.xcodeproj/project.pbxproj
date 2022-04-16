@@ -27,10 +27,6 @@
 		5501A3991D76256500CB8ABE /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3971D76256500CB8ABE /* FileDestination.swift */; };
 		5501A39A1D76256500CB8ABE /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3971D76256500CB8ABE /* FileDestination.swift */; };
 		5501A39B1D76256500CB8ABE /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3971D76256500CB8ABE /* FileDestination.swift */; };
-		5501A3A51D7625D900CB8ABE /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
-		5501A3A61D7625D900CB8ABE /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
-		5501A3A71D7625D900CB8ABE /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
-		5501A3A81D7625DA00CB8ABE /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
 		5501A3AA1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3A91D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift */; };
 		5501A3AB1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3A91D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift */; };
 		5501A3AC1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A3A91D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift */; };
@@ -110,6 +106,18 @@
 		55DD519B1D915C2C0025B5AD /* PrePostFixLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DD51971D915C2C0025B5AD /* PrePostFixLogFormatter.swift */; };
 		55E3EE5119D76F280068C3A7 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E3EE4519D76F280068C3A7 /* XCGLogger.framework */; };
 		55E3EE5819D76F280068C3A7 /* XCGLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3EE5719D76F280068C3A7 /* XCGLoggerTests.swift */; };
+		5D64DA12280AD98F00212379 /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
+		5D64DA13280AD98F00212379 /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
+		5D64DA14280AD98F00212379 /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
+		5D64DA15280AD98F00212379 /* TestDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501A39C1D76258600CB8ABE /* TestDestination.swift */; };
+		5D64DA19280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */; };
+		5D64DA1A280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */; };
+		5D64DA1B280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */; };
+		5D64DA1C280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */; };
+		5D64DA1E280ADA0C00212379 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */; };
+		5D64DA1F280ADA0C00212379 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */; };
+		5D64DA20280ADA0C00212379 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */; };
+		5D64DA21280ADA0C00212379 /* XCGLogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */; };
 		70CB94181B99E728007802FF /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DF40F19D76FA9005708BE /* XCGLogger.swift */; };
 		7573B4CD1DE4173E00726CE1 /* ObjcExceptionBridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7573B4D01DE4182B00726CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7573B4CF1DE4182B00726CE1 /* Foundation.framework */; };
@@ -221,6 +229,8 @@
 		55E3EE5019D76F280068C3A7 /* XCGLoggerTests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XCGLoggerTests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E3EE5619D76F280068C3A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55E3EE5719D76F280068C3A7 /* XCGLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCGLoggerTests.swift; sourceTree = "<group>"; };
+		5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCGLogWrapperEnums.swift; sourceTree = "<group>"; };
+		5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCGLogWrapper.swift; sourceTree = "<group>"; };
 		70CB94201B99E728007802FF /* XCGLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCGLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7573B4BE1DE4146300726CE1 /* ObjcExceptionBridging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcExceptionBridging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7573B4C01DE4146300726CE1 /* ObjcExceptionBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjcExceptionBridging.h; path = include/ObjcExceptionBridging.h; sourceTree = "<group>"; };
@@ -337,11 +347,8 @@
 				5501A3881D7624B900CB8ABE /* DestinationProtocol.swift */,
 				5501A3831D761F9A00CB8ABE /* BaseDestination.swift */,
 				558A045C1E95A6E600D975BD /* BaseQueuedDestination.swift */,
-				5501A38D1D76250600CB8ABE /* ConsoleDestination.swift */,
-				5501A3921D76251600CB8ABE /* AppleSystemLogDestination.swift */,
-				5501A3971D76256500CB8ABE /* FileDestination.swift */,
-				558A04521E95A6A200D975BD /* AutoRotatingFileDestination.swift */,
-				5501A39C1D76258600CB8ABE /* TestDestination.swift */,
+				5D64DA17280AD9A500212379 /* Console */,
+				5D64DA16280AD99900212379 /* File */,
 			);
 			path = Destinations;
 			sourceTree = "<group>";
@@ -368,6 +375,8 @@
 		5501A3C41D76640F00CB8ABE /* ObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				5D64DA18280AD9EF00212379 /* XCGLogWrapperEnums.swift */,
+				5D64DA1D280ADA0C00212379 /* XCGLogWrapper.swift */,
 			);
 			path = ObjectiveC;
 			sourceTree = "<group>";
@@ -495,6 +504,7 @@
 		55E3EE5419D76F280068C3A7 /* XCGLoggerTests */ = {
 			isa = PBXGroup;
 			children = (
+				5501A39C1D76258600CB8ABE /* TestDestination.swift */,
 				55E3EE5719D76F280068C3A7 /* XCGLoggerTests.swift */,
 				55E3EE5519D76F280068C3A7 /* Supporting Files */,
 			);
@@ -508,6 +518,24 @@
 				55E3EE5619D76F280068C3A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D64DA16280AD99900212379 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5501A3971D76256500CB8ABE /* FileDestination.swift */,
+				558A04521E95A6A200D975BD /* AutoRotatingFileDestination.swift */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		5D64DA17280AD9A500212379 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				5501A38D1D76250600CB8ABE /* ConsoleDestination.swift */,
+				5501A3921D76251600CB8ABE /* AppleSystemLogDestination.swift */,
+			);
+			name = Console;
 			sourceTree = "<group>";
 		};
 		7573B4BF1DE4146300726CE1 /* ObjcExceptionBridging */ = {
@@ -990,6 +1018,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA1C280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */,
 				55DD519B1D915C2C0025B5AD /* PrePostFixLogFormatter.swift in Sources */,
 				5501A3AD1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */,
 				5501A3911D76250600CB8ABE /* ConsoleDestination.swift in Sources */,
@@ -999,8 +1028,8 @@
 				5501A3EB1D77506F00CB8ABE /* ANSIColorLogFormatter.swift in Sources */,
 				5501A3871D761F9A00CB8ABE /* BaseDestination.swift in Sources */,
 				55A4B4F11D7AADA00006463B /* UserInfoFilter.swift in Sources */,
-				5501A3A81D7625DA00CB8ABE /* TestDestination.swift in Sources */,
 				558A04561E95A6A200D975BD /* AutoRotatingFileDestination.swift in Sources */,
+				5D64DA21280ADA0C00212379 /* XCGLogWrapper.swift in Sources */,
 				556DA1821D78B41600C7E546 /* FileNameFilter.swift in Sources */,
 				556DA1861D78B41600C7E546 /* FilterProtocol.swift in Sources */,
 				55AC33E21D8FB4FE00614D28 /* UserInfoHelpers.swift in Sources */,
@@ -1021,6 +1050,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA1A280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */,
 				55DD51991D915C2C0025B5AD /* PrePostFixLogFormatter.swift in Sources */,
 				5501A3AB1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */,
 				5501A38F1D76250600CB8ABE /* ConsoleDestination.swift in Sources */,
@@ -1030,8 +1060,8 @@
 				5501A3E91D77506F00CB8ABE /* ANSIColorLogFormatter.swift in Sources */,
 				5501A3851D761F9A00CB8ABE /* BaseDestination.swift in Sources */,
 				55A4B4EF1D7AADA00006463B /* UserInfoFilter.swift in Sources */,
-				5501A3A61D7625D900CB8ABE /* TestDestination.swift in Sources */,
 				558A04541E95A6A200D975BD /* AutoRotatingFileDestination.swift in Sources */,
+				5D64DA1F280ADA0C00212379 /* XCGLogWrapper.swift in Sources */,
 				556DA1801D78B41600C7E546 /* FileNameFilter.swift in Sources */,
 				556DA1841D78B41600C7E546 /* FilterProtocol.swift in Sources */,
 				55AC33E01D8FB4FE00614D28 /* UserInfoHelpers.swift in Sources */,
@@ -1052,6 +1082,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA14280AD98F00212379 /* TestDestination.swift in Sources */,
 				558EEB7E1D6BAC61006A9C7A /* XCGLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1060,6 +1091,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA15280AD98F00212379 /* TestDestination.swift in Sources */,
 				558EEB8B1D6BAC66006A9C7A /* XCGLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1068,6 +1100,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA12280AD98F00212379 /* TestDestination.swift in Sources */,
 				55BB1EFA1B79DC7500709779 /* XCGLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1076,6 +1109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA19280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */,
 				55DD51981D915C2C0025B5AD /* PrePostFixLogFormatter.swift in Sources */,
 				5501A3AA1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */,
 				5501A38E1D76250600CB8ABE /* ConsoleDestination.swift in Sources */,
@@ -1085,8 +1119,8 @@
 				5501A3E81D77506F00CB8ABE /* ANSIColorLogFormatter.swift in Sources */,
 				5501A3841D761F9A00CB8ABE /* BaseDestination.swift in Sources */,
 				55A4B4EE1D7AADA00006463B /* UserInfoFilter.swift in Sources */,
-				5501A3A51D7625D900CB8ABE /* TestDestination.swift in Sources */,
 				558A04531E95A6A200D975BD /* AutoRotatingFileDestination.swift in Sources */,
+				5D64DA1E280ADA0C00212379 /* XCGLogWrapper.swift in Sources */,
 				556DA17F1D78B41600C7E546 /* FileNameFilter.swift in Sources */,
 				556DA1831D78B41600C7E546 /* FilterProtocol.swift in Sources */,
 				55AC33DF1D8FB4FE00614D28 /* UserInfoHelpers.swift in Sources */,
@@ -1107,6 +1141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA13280AD98F00212379 /* TestDestination.swift in Sources */,
 				55E3EE5819D76F280068C3A7 /* XCGLoggerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1115,6 +1150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D64DA1B280AD9EF00212379 /* XCGLogWrapperEnums.swift in Sources */,
 				55DD519A1D915C2C0025B5AD /* PrePostFixLogFormatter.swift in Sources */,
 				5501A3AC1D76282F00CB8ABE /* DispatchQueue+XCGAdditions.swift in Sources */,
 				5501A3901D76250600CB8ABE /* ConsoleDestination.swift in Sources */,
@@ -1124,8 +1160,8 @@
 				5501A3EA1D77506F00CB8ABE /* ANSIColorLogFormatter.swift in Sources */,
 				5501A3861D761F9A00CB8ABE /* BaseDestination.swift in Sources */,
 				55A4B4F01D7AADA00006463B /* UserInfoFilter.swift in Sources */,
-				5501A3A71D7625D900CB8ABE /* TestDestination.swift in Sources */,
 				558A04551E95A6A200D975BD /* AutoRotatingFileDestination.swift in Sources */,
+				5D64DA20280ADA0C00212379 /* XCGLogWrapper.swift in Sources */,
 				556DA1811D78B41600C7E546 /* FileNameFilter.swift in Sources */,
 				556DA1851D78B41600C7E546 /* FilterProtocol.swift in Sources */,
 				55AC33E11D8FB4FE00614D28 /* UserInfoHelpers.swift in Sources */,
